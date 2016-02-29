@@ -1,0 +1,62 @@
+.board {
+
+  position: relative;
+  margin: 0 auto;
+  width: 330px;
+}
+
+
+.top, .middle, .bottom {
+  border-bottom: 10px solid red;
+  position: relative;
+  margin: 0 auto;
+
+}
+#cell0, #cell1, #cell2 {
+  border-right: 10px solid black;
+/*  background-color: green;*/
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  font-size: 50px
+
+}
+#cell3, #cell4, #cell5 {
+  border-right: 10px solid black;
+/*  background-color: green;*/
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  font-size: 50px
+}
+#cell6, #cell7, #cell8 {
+  border-right: 10px solid black;
+/*  background-color: green;*/
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  font-size: 50px
+}
+
+#cell2, #cell5, #cell8 {
+  border: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
+
+
+
+
+
+
